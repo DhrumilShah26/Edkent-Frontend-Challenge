@@ -1,0 +1,32 @@
+.cardbody {
+    display: flex;
+    flex-direction: row;
+    top: 5px;
+    left: 5px;
+    width: 150px;
+    height: 100px;
+    background: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-1 {
+  background-color: transparent;
+  color: #9B9B9B;
+  border-color: #9B9B9B;
+  width: 15%;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  
+}
+
+.cardtext {
+  
+  text-align:center;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.card{
+  margin-bottom: 15px;
+}

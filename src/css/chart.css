@@ -1,0 +1,22 @@
+.back{
+    background-color: white;
+}
+
+.analytics{
+    
+    font-weight: bold;
+    text-align: center;
+}
+
+.calendar-text {
+    color: gray;
+}
+
+.calendar-icon{
+    margin-left: 175px;
+}
+
+.vl {
+    border-right: 1px solid gray;
+    height: 50px;
+  }

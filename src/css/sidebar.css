@@ -1,0 +1,36 @@
+.logo{
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: #000000;
+    
+    
+}
+
+.App-sidebar {
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin: 25px 0px 0px 25px;
+    
+    color: rgb(0, 0, 0);
+  }
+
+.hr {
+    width: 475%;
+}
+
+.headings {
+    margin-top: 15px
+}
+
+.menu {
+    margin-left: 10px;
+}
+
+.logout {
+    font-family: sans-serif;
+    margin-top: 120px;
+    font-weight: bold;
+}

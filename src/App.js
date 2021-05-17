@@ -1,23 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header'
+import SideBar from './components/SideBar'
+import AccordionDrop from './components/Accordion'
+import Main from './components/Main'
+import LineChart from './components/Chart'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="row">
+      <div className="col-2">
+        <SideBar/>
+      </div>
+      
+      <div className="col-10 App">
+        <div className="row ">
+          <Header/>
+        </div>
+        <div className="row">
+          <AccordionDrop/>
+        </div>
+        <div className="row">
+          <Main/>
+        </div>
+        <div className="row back">
+          <LineChart/>
+        </div>
+
+      </div>      
     </div>
   );
 }

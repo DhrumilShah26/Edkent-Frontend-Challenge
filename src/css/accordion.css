@@ -1,0 +1,28 @@
+.accordion{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.droparrow{
+   margin-left: 1150px;
+}
+
+
+li{
+    color: #8A97C2;
+    margin-bottom: 15px;
+}
+
+.str{
+    color: #0000
+}
+
+h5{
+    margin-bottom: 25px;
+}
+
+.vline {
+    border-right: 1px solid gray;
+    height: 350px;
+  }
