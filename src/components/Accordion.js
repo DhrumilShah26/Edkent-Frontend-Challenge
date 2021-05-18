@@ -38,15 +38,15 @@ export default function AccordionDrop (props) {
             <Card.Body>
                 <div className="row">
                 <div className="col-4 vline">
-                    <h5><i classname="icons"><HiCode color="blue"/></i> Lorem lpsum is Simply Dummy Text</h5>
+                    <h5><i classname="icons"><HiCode size={30} color="blue"/></i> Lorem lpsum is Simply Dummy Text</h5>
                     {element}
                 </div>
                 <div className="col-4 vline">
-                  <h5><i classname="icons"><DiReact color="blue"/></i> Lorem lpsum is Simply Dummy Text</h5>
+                  <h5><i classname="icons"><DiReact size={30} color="blue"/></i> Lorem lpsum is Simply Dummy Text</h5>
                     {element}
                 </div>
                 <div className="col-4">
-                  <h5><i classname="icons"><GrDocumentCsv color="blue"/></i> Lorem lpsum is Simply Dummy Text</h5>
+                  <h5><i classname="icons"><GrDocumentCsv size={30} color="blue"/></i> Lorem lpsum is Simply Dummy Text</h5>
                     {element}
                 </div>
                 </div>

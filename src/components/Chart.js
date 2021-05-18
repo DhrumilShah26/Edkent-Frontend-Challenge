@@ -1,4 +1,3 @@
-import React from 'react'
 import Chart from "react-google-charts";
 import {Card} from "react-bootstrap"
 import Calendar from "./Calendar"
@@ -22,8 +21,8 @@ const options = {
   colors: ["#2569E6", "#FA6457", "#8466F2"] 
 };
 
-export default class LineChart extends React.Component {
-  render() {
+export default function LineChart (){
+  
     return (
       <div>
         <div className="row mt-3">
@@ -62,4 +61,3 @@ export default class LineChart extends React.Component {
       </div>
     );
   }
-}
